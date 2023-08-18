@@ -1,0 +1,415 @@
+body{
+    background-color: #141414;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.btc{
+    text-align: center;
+    border-bottom: 0.5px solid #fff;
+    border-bottom-left-radius: 30px;
+}
+
+.data{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 365vh;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.btn{
+    background: linear-gradient(15deg, transparent 5%, #FF013C 15% ,#003554);
+    text-shadow: 2px 2px 5px  #444b89, 7px 7px 50px #494b7b;
+    color: #141414;
+    font-size: 2.5rem;
+    font-weight: 900;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+
+li{
+    
+       list-style-type: none;;
+        padding: 5px;
+        width: fit-content;
+        height: fit-content;
+        font-size: 1.2rem;
+        font-weight: bold;
+        border-radius: 3px;
+       color:#415a77;
+     
+      
+}
+
+
+
+ul{
+
+
+
+   
+    width:460px;
+    height: fit-content;
+    padding: 10px;
+   
+  
+
+  
+  
+
+}
+
+.d{
+
+    font-size: 1.7rem;
+    background-image: linear-gradient(red 30% , green 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+
+}
+.sd{
+    font-size: 1.7rem;
+    background-image: linear-gradient(  red 30%, green 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+
+}
+
+.addr{
+    background-color: #25242a;
+    width: 450px;
+    cursor:text;
+    color:#adb5bd ;
+}
+
+.price{
+    background-color: #25242a;
+    width: 450px;
+    cursor:text;
+    color:#adb5bd ;
+
+}
+
+.wrap{
+    display: flex;
+    gap: 30vh;
+    justify-content:center;
+}
+
+.secOne{
+    
+    height:fit-content;
+    overflow: scroll;
+    background-color: #24252a;
+    border-radius: 15px;
+    opacity:0.6;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.secTwo{
+
+    height:fit-content;
+    overflow: scroll;
+    background-color: #24252a;
+    opacity:0.6;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.secTree{
+
+    height:fit-content;
+    background-color: #24252a;
+    opacity:0.6;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.secFor{
+   
+    height:fit-content;
+    opacity:0.6;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.secFive{
+    
+
+    opacity:0.6;
+    margin-top: 45px;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+.secSix{
+  
+    height:fit-content;
+    overflow: scroll;
+    background-color: #24252a;
+    opacity:0.6;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.secSev{
+
+    height:fit-content;
+    background-color: #24252a;
+    opacity:0.6;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 50px;
+    justify-content:center;
+    padding: 20px;
+    border-radius: 15px;
+ 
+}
+
+.secEyt{
+
+    height:fit-content;
+    overflow: scroll;
+    background-color: #24252a;
+    opacity:0.6;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.sectionOne{
+    visibility: visible;
+}
+.sectionTwo{
+    visibility: visible;
+}
+.sectionTree{
+    visibility: visible;
+}
+.sectionFor{
+    visibility: visible;
+}
+.sectionFive{
+    visibility: visible;
+}
+
+.sectionSix{
+    visibility: visible;
+}
+
+.sectionSev{
+    visibility: visible;
+}
+
+.sectionEyt{
+    visibility: visible;
+}
+
+.source{
+   padding: 20px;
+   text-align: center;
+
+}
+
+input{
+    padding: 5px;
+    margin: 5px;
+    width: 350px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #463f3a ;
+}
+
+
+.btn4{
+    border-radius: 20px;
+    font-size: 1.1rem;
+    background: linear-gradient(15deg, transparent 5%, #FF013C 15% ,#003554);
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px  #444b89, 7px 7px 30px #00E6F6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn5{
+   overflow: hidden;
+   text-align: center;
+   padding: 10px;
+   background: linear-gradient(15deg, transparent 5%, #FF013C 15% ,#003554);
+    text-shadow: 2px 2px 5px  #444b89, 2px 2px 50px #00E6F6;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    border-radius: 20px;
+
+   
+}
+
+
+input{
+    width: 100%;
+    background: linear-gradient(15deg, transparent 5%, #FF013C 15% ,#003554);
+    color: #fff;
+    font-size: xx-large;
+    position: relative;
+    right: 4%;
+    opacity: 0.5;
+    font-weight: 500;
+}
+
+.btn3 , .btn2 , .dellet, .btn1 , .btn8 , .btn6 , .btn7{
+height: 4vh;
+width: 20vw;
+border-radius: 10px;
+position: relative;
+left: 20%;
+margin-top: 2%;
+}
+
+.twobtn{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    body{
+        max-width:100vw;
+        background-color: #141414;
+        color: whitesmoke;
+    }
+
+    .header{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .info{
+        border-bottom: 2px solid #fff;
+    }
+   .miniWrap{
+    width: 100%;
+   }
+                    
+    .data{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 65vh;
+        position: relative;
+        bottom: 15vh;
+        width: 102%;
+    
+    }
+   
+    
+    .list{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .bigwrap{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30vh;
+
+    }
+    .btc{
+        text-align: center;
+        border: none;
+    }
+
+
+    input{
+        width: 100%;
+        background: linear-gradient(15deg, transparent 5%, #FF013C 15% ,#003554);
+        color: #fff;
+        font-size: xx-large;
+        position: relative;
+        right: 4%;
+        opacity: 0.5;
+        font-weight: 500;
+    }
+
+.btn3 , .btn2 , .dellet, .btn1 , .btn8 , .btn6 , .btn7{
+    height: 4vh;
+    width: 40vw;
+    border-radius: 10px;
+    position: relative;
+    left: 27%;
+    margin-top: 2%;
+}
+
+.twobtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+}
