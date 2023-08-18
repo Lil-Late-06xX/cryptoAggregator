@@ -796,20 +796,7 @@ btn8.addEventListener('click', ()=>{
                let dataR = data.result[0].SourceCode
 
 
-
-               let p = `<p>
-               
-               
-               ${dataR}
-               
-               
-               </p>`
-
-               contenteEyt.style.visibility="hidden"
-         contenteEyt.style.height='0px'
-         sec8.style.height= "500px"
-         sec8.style.width= "630px"
-         sec8.innerHTML+=p
+               alert("Check Console Log for the code : " + dataR)
 
 
 

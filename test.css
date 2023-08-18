@@ -52,6 +52,7 @@ li{
         font-weight: bold;
         border-radius: 3px;
        color:#415a77;
+       
      
       
 }
@@ -63,9 +64,9 @@ ul{
 
 
    
-    width:460px;
+    
     height: fit-content;
-    padding: 10px;
+    padding: 0;
    
   
 
@@ -142,6 +143,7 @@ ul{
 
     height:fit-content;
     background-color: #24252a;
+    overflow: scroll;
     opacity:0.6;
     margin-top: 45px;
     display: flex;
@@ -158,6 +160,7 @@ ul{
     display: flex;
     flex-direction: column;
     border-radius: 15px;
+    overflow: scroll;
 }
 
 .secFive{
@@ -199,16 +202,17 @@ ul{
  
 }
 
+
+
+
 .secEyt{
 
-    height:fit-content;
     overflow: scroll;
     background-color: #24252a;
     opacity:0.6;
     margin-top: 45px;
     display: flex;
     flex-direction: column;
-    padding: 20px;
     border-radius: 15px;
 }
 
@@ -389,7 +393,7 @@ gap: 10px;
         color: #fff;
         font-size: xx-large;
         position: relative;
-        right: 4%;
+        right: 1%;
         opacity: 0.5;
         font-weight: 500;
     }
@@ -409,6 +413,33 @@ gap: 10px;
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+
+
+ul{
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+    padding: 5px;
+    width: 100%;
+    height: fit-content;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 3px;
+    color:#415a77;
+    width: 100%;
+    margin: 0;
+}
+
+
+.secEyt{
+    width: 100%;
+    height: 600px;
 }
 
 }
